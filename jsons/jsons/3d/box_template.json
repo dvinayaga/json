@@ -1,0 +1,131 @@
+{
+    "blocks": 
+    [
+        {
+            "type": "plain",
+            "name": "block_front",
+            "position":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "block_right",
+            "position":
+            {
+                "x": 0.5,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "pivot":
+            {
+                "x": -0.5,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": true
+        },
+        {
+            "type": "plain",
+            "name": "block_back",
+            "position":
+            {
+                "x": 0,
+                "y": 0,
+                "z": -1
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "block_left",
+            "position":
+            {
+                "x": -0.5,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": -90,
+                "z": 0
+            },
+            "pivot":
+            {
+                "x": 0.5,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "block_top",
+            "position":
+            {
+                "x": 0,
+                "y": 0.5,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": true
+        },
+        {
+            "type": "plain",
+            "name": "block_bottom",
+            "position":
+            {
+                "x": 0,
+                "y": -0.5,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": true
+        }
+    ]
+}

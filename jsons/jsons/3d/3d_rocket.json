@@ -1,0 +1,452 @@
+{
+	"name": "Rocket",
+	"thumbnail": "img_rocket_3d",
+	"canvas_size":
+	{
+		"width": 1024,
+		"height": 768
+	},
+    "camera_position":
+    {
+        "x": 0,
+        "y": 0.75,
+        "z": 5.5
+    },
+    "pivot":
+    {
+        "x": 0,
+        "y": 0,
+        "z": -0.5
+    },
+	"blocks": 
+	[
+		{
+			"type": "plain",
+            "name": "first_deck_front",
+			"position":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+            "rotate":
+            {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+            "material_type": "square",
+            "material_image": "square_blue",
+            "material_ignore": false
+		},
+        {
+            "type": "plain",
+            "name": "first_deck_right",
+            "position":
+            {
+                "x": 0.5,
+                "y": 0,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 90,
+                "z": 0,
+            },
+            "material_type": "square",
+            "material_image": "square_red",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "first_deck_back",
+            "position":
+            {
+                "x": 0,
+                "y": 0,
+                "z": -1
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "first_deck_left",
+            "position":
+            {
+                "x": -0.5,
+                "y": 0,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": -90,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_purple",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "wings_right_front",
+            "position":
+            {
+                "x": 0.5,
+                "y": 0.0,
+                "z": 0
+            },
+            "pivot":
+            {
+                "x": -0.5,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": -45,
+                "z": 0
+            },
+            "material_type": "rightangle_triangle",
+            "material_image": "rightangle_triangle_blue",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "wings_left_front",
+            "position":
+            {
+                "x": -0.5,
+                "y": 0.0,
+                "z": 0
+            },
+            "pivot":
+            {
+                "x": -0.5,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 225,
+                "z": 0
+            },
+            "material_type": "rightangle_triangle",
+            "material_image": "rightangle_triangle_red",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "wings_right_back",
+            "position":
+            {
+                "x": 0.5,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "pivot":
+            {
+                "x": -0.5,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 45,
+                "z": 0
+            },
+            "material_type": "rightangle_triangle",
+            "material_image": "rightangle_triangle_green",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "wings_left_back",
+            "position":
+            {
+                "x": -0.5,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "pivot":
+            {
+                "x": -0.5,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 135,
+                "z": 0
+            },
+            "material_type": "rightangle_triangle",
+            "material_image": "rightangle_triangle_purple",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "second_deck_front",
+            "position":
+            {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_red",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "second_deck_right",
+            "position":
+            {
+                "x": 0.5,
+                "y": 1,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "second_deck_back",
+            "position":
+            {
+                "x": 0,
+                "y": 1,
+                "z": -1
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_blue",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "second_deck_left",
+            "position":
+            {
+                "x": -0.5,
+                "y": 1,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": -90,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_purple",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "thrid_deck_front",
+            "position":
+            {
+                "x": 0,
+                "y": 2,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_green",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "thrid_deck_right",
+            "position":
+            {
+                "x": 0.5,
+                "y": 2,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_red",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "third_deck_back",
+            "position":
+            {
+                "x": 0,
+                "y": 2,
+                "z": -1
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_blue",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "thrid_deck_left",
+            "position":
+            {
+                "x": -0.5,
+                "y": 2,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": -90,
+                "z": 0
+            },
+            "material_type": "square",
+            "material_image": "square_purple",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "top_deck_front",
+            "position":
+            {
+                "x": 0,
+                "y": 2.5,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": -30,
+                "y": 0,
+                "z": 0
+            },
+            "pivot":
+            {
+                "x": 0,
+                "y": -0.5,
+                "z": 0
+            },
+            "material_type": "triangle",
+            "material_image": "triangle_green",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "top_deck_right",
+            "position":
+            {
+                "x": 0.5,
+                "y": 2.5,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": -30,
+                "y": 90,
+                "z": 0
+            },
+            "pivot":
+            {
+                "x": 0,
+                "y": -0.5,
+                "z": 0
+            },
+            "material_type": "triangle",
+            "material_image": "triangle_blue",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "top_deck_back",
+            "position":
+            {
+                "x": 0,
+                "y": 2.5,
+                "z": -1
+            },
+            "rotate":
+            {
+                "x": 30,
+                "y": 0,
+                "z": 0
+            },
+            "pivot":
+            {
+                "x": 0,
+                "y": -0.5,
+                "z": 0
+            },
+            "material_type": "triangle",
+            "material_image": "triangle_red",
+            "material_ignore": false
+        },
+        {
+            "type": "plain",
+            "name": "top_deck_left",
+            "position":
+            {
+                "x": -0.5,
+                "y": 2.5,
+                "z": -0.5
+            },
+            "rotate":
+            {
+                "x": 30,
+                "y": 90,
+                "z": 0
+            },
+            "pivot":
+            {
+                "x": 0,
+                "y": -0.5,
+                "z": 0
+            },
+            "material_type": "triangle",
+            "material_image": "triangle_purple",
+            "material_ignore": false
+        }
+	]
+}

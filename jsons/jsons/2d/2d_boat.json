@@ -1,0 +1,276 @@
+{
+    "name": "Boat",
+    "thumbnail": "img_boat",
+    "canvas_size": 
+    {
+        "width": 600.0,
+        "height": 600.0
+    },
+    "blocks": 
+    [
+        {
+            "shape": "triangle",
+            "color": "green",
+            "style": 1,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 80,
+                    "y": 50
+                },
+                "size":
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "square",
+            "color": "pink",
+            "style": 1,
+            "frame": 
+            {
+                "origin": 
+                {
+                    "x": 80,
+                    "y": 160
+                },
+                "size":
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "triangle",
+            "color": "green",
+            "style": 2,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 190,
+                    "y": 160
+                },
+                "size": 
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "rectangle",
+            "color": "pink",
+            "style": 2,
+            "frame": 
+            {
+                "origin": 
+                {
+                    "x": 80,
+                    "y": 270
+                },
+                "size":
+                {
+                    "width": 200,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "triangle",
+            "color": "green",
+            "style": 2,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 290,
+                    "y": 270
+                },
+                "size":
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "rectangle",
+            "color": "brown",
+            "style": 2,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 29,
+                    "y": 384
+                },
+                "size":
+                {
+                    "width": 265,
+                    "height": 50
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "rectangle",
+            "color": "brown",
+            "style": 2,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 304,
+                    "y": 384
+                },
+                "size":
+                {
+                    "width": 265,
+                    "height": 50
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "triangle",
+            "color": "green",
+            "style": 1,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 29,
+                    "y": 444
+                },
+                "size":
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": -180
+            }
+        },
+        {
+            "shape": "square",
+            "color": "green",
+            "style": 1,
+            "frame":
+            {
+                "origin":
+                {
+                    "x": 139,
+                    "y": 444
+                },
+                "size":
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "square",
+            "color": "green",
+            "style": 1,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 249,
+                    "y": 444
+                },
+                "size":
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "square",
+            "color": "green",
+            "style": 1,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 359,
+                    "y": 444
+                },
+                "size":
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": 0
+            }
+        },
+        {
+            "shape": "triangle",
+            "color": "green",
+            "style": 1,
+            "frame": 
+            {
+                "origin":
+                {
+                    "x": 469,
+                    "y": 444
+                },
+                "size":
+                {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "transform": 
+            {
+                "rotate": -270
+            }
+        }
+    ]
+}

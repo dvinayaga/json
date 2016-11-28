@@ -1,0 +1,204 @@
+{
+    "name": "Steps",
+    "thumbnail": "img_steps_3d",
+    "canvas_size":
+    {
+        "width": 1024,
+        "height": 768
+    },
+    "camera_position":
+    {
+        "x": 1.5,
+        "y": 0.75,
+        "z": 6.0
+    },
+    "pivot":
+    {
+        "x": 2,
+        "y": 0,
+        "z": -0.5
+    },
+    "blocks": 
+    [
+        {
+            "type": "box",
+            "name": "first_deck_first",
+            "position":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 1, 0, 0, 1, 1 ],
+            "image_names": [ "square_green", "square_green", "square_green", "square_green", "square_green", "square_green" ]
+        },
+        {
+            "type": "box",
+            "name": "first_deck_second",
+            "position":
+            {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 1, 0, 1, 1, 1 ],
+            "image_names": [ "square_blue", "square_blue", "square_blue", "square_blue", "square_blue", "square_blue" ]
+        },
+        {
+            "type": "box",
+            "name": "first_deck_third",
+            "position":
+            {
+                "x": 2,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 1, 0, 1, 1, 1 ],
+            "image_names": [ "square_purple", "square_purple", "square_purple", "square_purple", "square_purple", "square_purple" ]
+        },
+        {
+            "type": "box",
+            "name": "first_deck_fourth",
+            "position":
+            {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 0, 0, 1, 1, 1 ],
+            "image_names": [ "square_red", "square_red", "square_red", "square_red", "square_red", "square_red" ]
+        },
+        {
+            "type": "box",
+            "name": "second_deck_first",
+            "position":
+            {
+                "x": 1,
+                "y": 1,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 1, 0, 0, 1, 1 ],
+            "image_names": [ "square_red", "square_red", "square_red", "square_red", "square_red", "square_red" ]
+        },
+        {
+            "type": "box",
+            "name": "second_deck_second",
+            "position":
+            {
+                "x": 2,
+                "y": 1,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 1, 0, 1, 1, 1 ],
+            "image_names": [ "square_purple", "square_purple", "square_purple", "square_purple", "square_purple", "square_purple" ]
+        },
+        {
+            "type": "box",
+            "name": "second_deck_third",
+            "position":
+            {
+                "x": 3,
+                "y": 1,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 0, 0, 1, 1, 1 ],
+            "image_names": [ "square_blue", "square_blue", "square_blue", "square_blue", "square_blue", "square_blue" ]
+        },
+        {
+            "type": "box",
+            "name": "thrid_deck_first",
+            "position":
+            {
+                "x": 2,
+                "y": 2,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 1, 0, 0, 1, 1 ],
+            "image_names": [ "square_green", "square_green", "square_green", "square_green", "square_green", "square_green" ]
+        },
+        {
+            "type": "box",
+            "name": "thrid_deck_second",
+            "position":
+            {
+                "x": 3,
+                "y": 2,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 0, 0, 1, 1, 1 ],
+            "image_names": [ "square_red", "square_red", "square_red", "square_red", "square_red", "square_red" ]
+        },
+        {
+            "type": "box",
+            "name": "fourth_deck_first",
+            "position":
+            {
+                "x": 3,
+                "y": 3,
+                "z": 0
+            },
+            "rotate":
+            {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ignored_sides": [ 0, 0, 0, 0, 1, 1 ],
+            "image_names": [ "square_purple", "square_purple", "square_purple", "square_purple", "square_purple", "square_purple" ]
+        }
+    ]
+}
